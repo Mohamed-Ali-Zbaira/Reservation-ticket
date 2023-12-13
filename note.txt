@@ -1,0 +1,30 @@
+npm run dev
+*****************
+
+export default function First() {
+    return (
+      <>
+  
+Contact
+      </>
+    )
+  }
+
+
+
+  //////////////////
+ import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+  <Navbar />
+  <Footer />
+
+
+
+in components : there is the cards and components 
+in pages there is the components 
+create array products : use map to display the cards : every elementy from the array has a single card 
+{products.map((el)=><Card name={el.name}/>)} 
+
+
+
+
